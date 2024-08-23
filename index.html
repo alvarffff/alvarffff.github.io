@@ -3,18 +3,143 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>alvar fernandez villasante</title>
+    <style>
+        body {
+            font-family: 'Lucida Console', monospace;
+            font-size: 18px;
+            color: #111;
+            background-color: white;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 50px;
+            box-sizing: border-box;
+        }
+
+        .landing {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            min-height: 100dvh;
+            text-align: center;
+        }
+
+        svg {
+            width: 100%;
+            height: auto;
+        }
+
+        .title-container {
+            width: 100%;
+            max-width: 600px;
+            display: inline-block;
+            font-size: 32px;
+
+        }
+
+        .separator {
+            letter-spacing: -9px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: lightgrey;
+            width: 100%;
+            margin: 30px auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+        }
+
+        td {
+            padding: 5px 20px;
+            border: 1px solid #dddddd;
+        }
+
+        .quiet,
+        .links-container a {
+            color: inherit;
+        }
+
+        .links-container {
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        .links-container a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .product-photo {
+            display: block;
+            max-width: 640px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .faqtable dt {
+            margin-bottom: 0.75em;
+            font-style: italic;
+        }
+
+        .faqtable dd {
+            margin-left: 0;
+            margin-bottom: 2em;
+        }
+    </style>
 </head>
 
 <body>
-    <main>
-        <h1>Alvar Fernandez Villasante</h1>
-    </main>
-    <script src="index.js"></script>
+    <div class="landing">
+        <div class="title-container">
+            <h1> ALVAR FERNANDEZ</h1>
+        </div>
+        <div class="links-container">
+            <a href="#alvar">alvar</a><span class="separator">|</span>
+            <a href=#projects>projects</a><span class="separator">|</span>
+            <a href="#resume">resume</a><span class="separator">|</span>
+            <a href="#contact">contact</a>
+        </div>
+    </div>
+
+    <hr>
+    <h2 id="alvar">alvar fernandez villasante</h2>
+    <p> hello! I'm Alvar Fernández, an embedded software developer from the Basque Country in Spain. I consider myself
+        as a person with strong ability to work <strong>independently</strong>, coupled with an openness to learning new
+        disciplines and
+        solving challenging problems. My technical flair is complemented by a <strong>'can do, will do'</strong>
+        attitude, which means
+        that I am always ready to step in when colleagues need help, and I find it natural to seek help when necessary,
+        fostering a collaborative and supportive work environment.
+        <br> <br>
+    </p>
+    <h3>>what have I studied?</h3>
+    <p>
+        During the 5 years of my double degree in Computer Science and Electronics Engineering, I have been able to
+        learn about the fundamental relationship between software and hardware, thus fulfilling my aspirations as an
+        engineer. <br><br>
+
+        In the Master’s degree program in Data Science and Computer Engineering, I gained in-depth understanding of how
+        AI requires high-performance computing. In my Master's thesis, I developed a traffic signal detection system
+        using computer vision, specifically employing YOLOv7, on a Kria KV260 platform (DPU, FPGA, etc). The core aspect
+        of my project was the hardware-accelerated inference, significantly enhancing the detection speed and
+        efficiency. <br><br>
+    </p>
+
+    <hr>
+    <h2 id="projects">projects</h2>
+    <hr>
+    <h2 id="resume">resume</h2>
+    <hr>
+    <h2 id="contact">contact</h2>
+
 </body>
 
 </html>
